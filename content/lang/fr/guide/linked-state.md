@@ -27,7 +27,7 @@ Bien que cela offre de meilleures performances à l'exécution, cela nécessite 
 > Une autre solution est de lié les méthodes du composant de manière _déclarative_, en utilisant les décorateurs d'ES7, comme le `@bind` de [decko](http://git.io/decko)
 
 
-## State lié à la rescousse
+## Etat lié à la rescousse
 
 Heureusement, il y a une solution sous la forme du module de preact [`linkState`](https://github.com/developit/linkstate).
 
