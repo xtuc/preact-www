@@ -10,7 +10,7 @@ toc: false
         <logo height="1.5em" title="Preact" text>Preact</logo>
     </h1>
 
-    <p>Fast 3kB alternative to React with the same ES6 API.</p>
+    <p>Alternative à React de seulement 3Ko, rapide et avec la même API ES6.</p>
 
     <p>
         <a href="/guide/getting-started" class="home-button">Commencer</a>
@@ -39,7 +39,7 @@ toc: false
     </p>
     
     <p>
-        Preact is also a first-class citizen of the web platform. It diffs Virtual DOM against the DOM itself, registers real event handlers, and plays nicely with other libraries.
+        Preact est aussi au premier rang de la plateforme web. Il compare le DOM Virtuel avec le DOM "réel", enregistre de vrais gestionnaires d'événement et fonctionne très bien avec d'autres bibliothèques.
     </p>
 </section>
 
@@ -47,7 +47,7 @@ toc: false
 <section class="home-section">
     <img src="/assets/home/size.svg" alt="size">
 
-    <h2>Small Size</h2>
+    <h2>Petite taille</h2>
     
     <p>
         La plupart des framesworks UI est très large et possède généralement plus de code que votre application. Preact est différent : la majorité du code de votre application sera le votre.
@@ -62,14 +62,14 @@ toc: false
 <section class="home-section">
     <img src="/assets/home/performance.svg" alt="performance">
 
-    <h2>Big Performance</h2>
+    <h2>Grande performance</h2>
     
     <p>
         Preact est performant. Il possède une des implémentations les plus rapides pour détecter les différences entre le DOM dans la page et le Virtual DOM.
     </p>
     
     <p>
-        Il implement certain extra comme <a href="/guide/configuration#debounceRendering">les updates en batch</a>, <a href="/guide/configuration#syncComponentUpdates">des mises à jour asynchrones</a>, réutilisation du DOM et optimisation de la gestion des évènements avec [Linked State](/guide/linked-state).
+        Il implémente certains extras comme <a href="/guide/configuration#debounceRendering">les updates en batch</a>, <a href="/guide/configuration#syncComponentUpdates">des mises à jour asynchrones</a>, la réutilisation du DOM et l'optimisation de la gestion des évènements avec [Linked State](/guide/linked-state).
     </p>
 </section>
 
@@ -77,10 +77,10 @@ toc: false
 <section class="home-section">
     <img src="/assets/home/portable.svg" alt="portable">
 
-    <h2>Portable &amp; Embeddable</h2>
+    <h2>Portable &amp; embarquable</h2>
     
     <p>
-        Concrètement aux autres Preact ne possède pas un énorme surcout, il vous permettea de bénéficier de la puissance du Virtual DOM.
+        Contrairement aux autres Preact ne possède pas un énorme surcoût, il vous permettra de bénéficier de la puissance du Virtual DOM.
     </p>
     
     <p>
@@ -92,14 +92,14 @@ toc: false
 <section class="home-section">
     <img src="/assets/home/productive.svg" alt="productive">
 
-    <h2>Instantly Productive</h2>
+    <h2>Productif instantanément</h2>
     
     <p>
-        Lightweight est plus amusant quand vous n'avez pas à sacrifier la productivité pour y arriver. Avec Preact vous serait productive en quelques instants avec certains extra:
+        La légereté est plus amusante quand vous n'avez pas à sacrifier la productivité pour y arriver. Avec Preact vous serez productif en quelques instants avec certains extras :
     </p>
     
     <ul>
-        <li>`props`, `state` and `context` sont en arguments de la méthode `render()`</li>
+        <li>`props`, `state` et `context` sont papssés en arguments de la méthode `render()`</li>
         <li>Utiliser les attributs standard HTML comme `class` et `for`</li>
         <li>Fonctionnne avec React DevTools sans effort</li>
     </ul>
@@ -109,14 +109,14 @@ toc: false
 <section class="home-section">
     <img src="/assets/home/compatible.svg" alt="compatible">
 
-    <h2>Ecosystem Compatible</h2>
+    <h2>Compatible avec l'écosystème</h2>
     
     <p>
-        Virtual DOM Components vous permet de réutiliser des briques de votre application. D'un simple boutton aux sources de données. Grâce au design de Preact vous avez à votre disposition les composants de l'écosystème React.
+        Les composants de Virtual DOM vous permet de réutiliser des briques de votre application. D'un simple bouton aux sources de données. Grâce à la conception de Preact vous avez à votre disposition les composants de l'écosystème React.
     </p>
     
     <p>
-        Un simple alias vers <a href="/guide/switching-to-preact#how-to-alias-preact-compat">preact-compat</a> apporte une couche de compatibilité qui apport les fonctionnalités les plus complexes de React.
+        Un simple alias vers <a href="/guide/switching-to-preact#how-to-alias-preact-compat">preact-compat</a> apporte une couche de compatibilité qui apporte les fonctionnalités les plus complexes de React.
     </p>
 </section>
 
@@ -128,7 +128,7 @@ toc: false
 
 <section class="home-split">
     <div>
-        <h2>Composant liste de tache</h2>
+        <h2>Composant liste de tâches</h2>
         <pre><code class="lang-js">
 export default class TodoList extends Component {
     state = { todos: [], text: '' };
@@ -158,7 +158,7 @@ export default class TodoList extends Component {
     </div>
     
     <div>
-        <h2>Example live</h2>
+        <h2>Exemple interactif</h2>
         <pre repl="false"><code class="lang-js">
 import TodoList from './todo-list';
 
@@ -173,7 +173,7 @@ render(&lt;TodoList /&gt;, document.body);
 
 <section class="home-split">
     <div>
-        <h2>Fetch Github Stars</h2>
+        <h2>Récupérer les Stars Github</h2>
         <pre><code class="lang-js">
 export default class Stars extends Component {
     async componentDidMount() {
@@ -193,7 +193,7 @@ export default class Stars extends Component {
     </div>
     
     <div>
-        <h2>Running Example</h2>
+        <h2>Exemple fonctionnel</h2>
         
         <pre repl="false"><code class="lang-js">
 import Stars from './stars';
