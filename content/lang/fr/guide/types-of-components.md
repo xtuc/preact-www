@@ -7,10 +7,10 @@ permalink: '/guide/types-of-components'
 
 Il y a deux types de composants dans Preact :
 
-- Les composants classiques, avec des [méthodes de cycle de vie] et un état
+- Les composants classiques, avec des [méthodes de cycle de vie] et un état.
 - Les composants fonctionnels sans état, qui sont des fonctions qui prennent en paramètre des `props` et retournent du [JSX].
 
-Entre ces deux types, il y a aussi plusieurs façons d'implémnter les composants.
+Entre ces deux types, il y a aussi plusieurs façons d'implémenter les composants.
 
 
 ## Exemple
