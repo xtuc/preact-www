@@ -20,7 +20,7 @@ npm install --save-dev preact-compat-enzyme preact-test-utils
 
 ## Configuration
 
-Utilisant Karma comme test runner, nous alons devoir ajouter quelques [`alias webpack`](https://github.com/webpack-contrib/karma-webpack#usage) pour React et quelques autres modules :
+Utilisant Karma comme test runner, nous allons devoir ajouter quelques [`alias webpack`](https://github.com/webpack-contrib/karma-webpack#usage) pour React et quelques autres modules :
 
 ```json
 {
